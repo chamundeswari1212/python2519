@@ -54,9 +54,44 @@ z=30
 print(x+y+z) # adding numerics
 
 a="10"
+b="10"
 #print(x+a) # TypeError: unsupported operand type(s) for +: 'int' and 'str'
-
+print(a+b)
 
 x,y,z=10,20,30
 print(x+y+z)
 
+
+s1,s2,s3 = "orange","apple","cherry"
+print(s1+s2+s3)
+
+# using concatenation
+name = "ravi"
+age = 25
+# print("My name is "+name +" and im "+age +"years old")
+# TypeError: can only concatenate str (not "int") to str
+
+# using interpolation
+print(f"My name is {name} and im {age} years old")
+
+# using different values dynamically
+x,y,z=10,20,30
+age=25
+print(f"Sum of x,y,z,age:{x+y+z+age}")
+
+
+# school student info
+name = "john"
+student_class = 8
+student_school = "DPS"
+print(f"My name is {name} is studying {student_class} class in {student_school} school")
+
+
+# key specifications of Mahindra Scorpio
+ARAI_Mileage = "14.44 kmpl"
+Engine_Displacement="2184 cc"
+Max_Power="130bhp@3750rpm"
+Seating_capacity=7.9
+Boot_Space="460 Litres"
+Body_Type="SUV"
+print(f"key specifications of Mahindra Scorpio:ARAI_Mileage: {ARAI_Mileage} and Engine_Displacement: {Engine_Displacement} and Max_Power: {Max_Power} and Seating_capacity: {Seating_capacity} and Boot_Space: {Boot_Space} and Body_Type: {Body_Type}")
