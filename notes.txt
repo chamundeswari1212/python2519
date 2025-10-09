@@ -164,7 +164,7 @@
 -> What is concatenation ?
     -> Joining multiple Strings 
 -> What is interpolation ?
-    -> interpolation in programming means replacing placements with actual values
+    -> interpolation in programming means replacing placeholder with actual values
 -> Using f-Strings (Formatted String Literals)
     ->An f-String allows you to embed variables directly inside a string using {}
 ->A variableallows you to
