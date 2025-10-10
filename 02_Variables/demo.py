@@ -182,3 +182,52 @@ print(id(n1))
 print(id(n2))
 
 
+print("="*40)
+# Data Types
+num = 10 # int
+print(type(num))
+
+num = 10.0 # float
+print(type(num))
+
+num = 1 + 2j #complex
+print(type(num))
+
+data = "hello" #string
+print(type(data))
+
+canVote = True # Boolean
+print(type(canVote))
+
+print("="*20)
+# List
+list_nums = [10,20,30]
+print(type(list_nums))
+
+# Tuples
+tuple_nums = (10,20,30)
+print(type(tuple_nums))
+
+# Set
+set_nums = {10,20,30,10,20,40}
+print(type(set_nums))
+print(set_nums)
+
+# Dictionaries
+Dict_nums = {'id':101,'name':'cham','age':21}
+print(type(Dict_nums))
+print(Dict_nums)
+
+# None type
+x = None
+print(type(x))
+print(x)
+
+# Class
+class Student: #class
+    pass # Skip - do nothing
+edify_Student = Student()
+#object of these class edify_Student
+print(type(edify_Student))
+
+
