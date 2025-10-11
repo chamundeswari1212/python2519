@@ -231,3 +231,39 @@ edify_Student = Student()
 print(type(edify_Student))
 
 
+print("="*50)
+# Student Management System
+Student_id = 101
+Student_Name = "John"
+Student_Age = 20
+
+# Scores
+Quiz_score = 80
+assignment_score = 75
+exam_score = 90
+
+#Attendence
+Student_attendence = 60
+
+#calculations
+total_score = Quiz_score + assignment_score + exam_score
+avg_score = total_score/3
+student_passed = avg_score>75
+
+#increement attendence
+#student_attendence =student_attendence  + 1 #long hand
+Student_attendence += 1 # short hand
+
+# award eligibility
+award_eligibility = Student_attendence >= 90 and student_passed
+
+#process output
+print("======= Student Report ==========")
+print(f"Student Name: {Student_name}")
+print(f"Student Total Score : {total_score}")
+print(f"Student Average Score : {avg_score}")
+print(f"Student Current Attendance : {Student_attendence}")
+print(f"Student Passed : {student_passed}")
+print(f"Student Awarded : {award_eligibility}")
+
+
