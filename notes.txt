@@ -246,19 +246,20 @@
                 -> str() -> converts to string --> str(100) - "100"
  
 
-4th Sep 
-=========
+4th Sep 2025
+=============
     -> Control Structures/ Statement 
     -> Control Structures helps you control the flow of execution in program 
     -> Categories
         -> Decision Marking Statements (Conditional Statements)
-        -> Looping Statements (Jump Statements)
+        -> Looping Statements (Iterative Statements)
+        -> Branching Statements (Jump Statements)
     -> Conditional / Decision Making Statements 
         -> Used to evaluates a condition (True/False)
-        -> if : Runs block of code if condition is true 
-        -> if else : Runs one block of code if condition is true and runs another block of code if condition is false 
-        -> elif ladder : Used to check multiple conditions
-        -> match-case : alternative to if-else, when you have multiple conditions
+        -> if Statement : Runs block of code if condition is true 
+        -> if else Statement : Runs one block of code if condition is true and runs another block of code if condition is false 
+        -> elif ladder Statement : Used to check multiple conditions
+        -> match-case Statement : alternative to if-else, when you have multiple conditions
     -> Indentation : Refers to spaces to the beginning of the line that will define code blocks (conditionals, loops, functions, classes etc)
         -> At least one space or recommended is 4 spaces
         -> All lines in the same block must have same Indentation
