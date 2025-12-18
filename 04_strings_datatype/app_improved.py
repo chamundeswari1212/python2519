@@ -83,4 +83,4 @@ if coupon.find("PROMO") != -1:
 final_fee = base_course_fee - discount
 print(f"Actual Fee: {base_course_fee}")
 print(f"Discount Applied: {discount}")
-print(f"Fee To Pay: {final_fee}")                
+print(f"Fee To Pay: {final_fee}")
